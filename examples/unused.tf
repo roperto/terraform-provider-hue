@@ -1,3 +1,7 @@
+# You can use this strategy if you want to remove extra stuff from your bridge.
+# It will not do it for you, you will still need to delete stuff using (example):
+# curl -X DELETE http://hue/api/[username]/[resource]/[id]
+
 locals {
   rooms = [
     module.bedroom,
